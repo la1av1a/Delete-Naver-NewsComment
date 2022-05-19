@@ -1,4 +1,5 @@
 import os
+import sys
 
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
@@ -8,8 +9,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-id = ""
-pw = ""
+id = sys.argv[1]
+pw = sys.argv[2]
 
 def set_chrome_driver():
     chrome_options = webdriver.ChromeOptions()
