@@ -12,7 +12,7 @@ https://www.google.com/intl/ko_kr/chrome/
 
 아래 명령어로 필수 라이브러리를 설치합니다.
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 
 ### 3.실행
