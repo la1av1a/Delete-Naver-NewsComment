@@ -1,5 +1,7 @@
 # Delete-Naver-NewsComment
 
+본 프로젝트는 python 3.8 버전을 기준으로 개발되었습니다
+
 ## Prerequisites
 ### 1. 필수 라이브러리 설치
 
