@@ -2,7 +2,7 @@
 
 본 프로젝트는 python 3.8 버전을 기준으로 개발되었습니다
 
-### 1. GoogleChrome 설치
+### 1. Google Chrome 설치
 
 https://www.google.com/intl/ko_kr/chrome/
 
