@@ -2,7 +2,8 @@
 
 네이버 또는 다음 뉴스 댓글의 삭제를 도와주는 프로그램입니다.
 
-![img.png](img.png)
+<img width="912" alt="스크린샷 2022-06-05 21 12 31" src="https://user-images.githubusercontent.com/81461486/172050365-76907a85-80f5-45ef-a45b-665709afc277.png">
+
 
 ## 실행파일 다운로드
 https://github.com/la1av1a/Delete-News-Comment/releases
