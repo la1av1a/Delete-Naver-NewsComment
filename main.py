@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
         # Vertically center widgets
         self._verticalLayout.addStretch(1)
         # Add Copyright
-        self.addCopyRight()
+        #self.addCopyRight()
 
     def addLockImage(self):
         imageLabel = QLabel()
