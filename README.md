@@ -1,3 +1,4 @@
+<a href=https://github.com/la1av1a/Delete-News-Comment/releases>Releases</a>
 # Delete-News-Comment
 
 네이버 또는 다음 뉴스 댓글의 삭제를 도와주는 프로그램입니다.
