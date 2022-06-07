@@ -42,6 +42,10 @@ def main(id, pw):
         amountOfComments = ele.text
         print(f'총 댓글 갯수 : {amountOfComments}')
         while int(amountOfComments) > 0:
+            element = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR,'#alex-area > div > div > div:nth-child(2) > div.my_layer.my_layer_type2.use_unfollow > div.my_header > div > div > ul > li.on > a > span > span[data-reactid=".0.0.1.1.0.1.1.0.$mycmt_tab_comment.0.0.3"]'))
+            )
+            element.click()
             ele = driver.find_element(By.CSS_SELECTOR,'#alex-area > div > div > div:nth-child(2) > div.my_layer.my_layer_type2.use_unfollow > div.my_header > div > div > ul > li.on > a > span > span[data-reactid=".0.0.1.1.0.1.1.0.$mycmt_tab_comment.0.0.3"]')
             # ele = driver.find_element(By.CSS_SELECTOR,'#alex-area > div > div > div:nth-child(2) > div.my_layer.my_layer_type2.use_unfollow > div.my_header > div > div > ul > li.on > a > span > span[data-reactid=".0.0.1.1.0.1.1.0.$mycmt_tab_comment.0.0.3"]')
             s = driver.find_element(By.XPATH, '//*[contains(@class, "inner_layer")]/div/ul/li[1]/div/button')
@@ -50,7 +54,6 @@ def main(id, pw):
             WebDriverWait(driver, 10).until(EC.alert_is_present())
             driver.switch_to.alert.accept()
             print(f'남은 댓글 갯수 : {ele.text}개')
-
     try:
         driver = set_chrome_driver()
         kakao_Login()
