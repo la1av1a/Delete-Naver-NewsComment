@@ -1,13 +1,8 @@
-<a href=https://github.com/la1av1a/Delete-News-Comment/releases>Releases</a>
 # Delete-News-Comment
 
-네이버 또는 다음 뉴스 댓글의 삭제를 도와주는 프로그램입니다.
+네이버 댓글의 삭제를 도와주는 프로그램입니다.
 
-<img width="912" alt="스크린샷 2022-06-05 21 12 31" src="https://user-images.githubusercontent.com/81461486/172050365-76907a85-80f5-45ef-a45b-665709afc277.png">
-
-
-## 실행파일 다운로드
-https://github.com/la1av1a/Delete-News-Comment/releases
+![화면 캡처 2023-07-24 231135](https://github.com/la1av1a/Delete-News-Comment/assets/81461486/f04818ad-7001-476c-bb65-1825e2cc592e)
 
 본 프로젝트는 python 3.8 버전 환경에서 개발되었습니다
 
@@ -17,8 +12,6 @@ https://github.com/la1av1a/Delete-News-Comment/releases
 
 Naver 또는 Daum에 체크하시고 아이디와 비밀번호를 입력하신 후 <br>
 Run을 클릭 해주시면 자동으로 뉴스 댓글의 삭제가 진행됩니다.
-
-## 직접 실행하시고 싶은 경우
 
 ### 1. Google Chrome 설치
 
