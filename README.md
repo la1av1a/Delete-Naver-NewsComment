@@ -1,4 +1,4 @@
-# Delete-News-Comment
+# 뉴스 댓글 자동 삭제기
 
 네이버 댓글의 삭제를 도와주는 프로그램입니다.
 
@@ -10,7 +10,7 @@
 
 <a href="https://github.com/la1av1a/Delete-News-Comment/releases">실행 파일</a>을 다운받아 주신 후
 
-Naver 또는 Daum에 체크하시고 아이디와 비밀번호를 입력하신 후 <br>
+Naver 아이디와 비밀번호를 입력하신 후 <br>
 Run을 클릭 해주시면 자동으로 뉴스 댓글의 삭제가 진행됩니다.
 
 ### 1. Google Chrome 설치
@@ -30,5 +30,3 @@ https://www.google.com/intl/ko_kr/chrome/
 아래 명령어로 실행합니다
 
     python main.py 
-
-
